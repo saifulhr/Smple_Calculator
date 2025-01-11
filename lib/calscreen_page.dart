@@ -124,11 +124,13 @@ class _CalscreenPageState extends State<CalscreenPage> {
     double num1 = double.parse(number1);
     double num2 = double.parse(number2);
 
+
     var result = 0.0;
     switch (operand) {
       case Btn.add:
         result = num1 + num2;
         break;
+        
       case Btn.subtract:
         result = num1 - num2;
         break;
