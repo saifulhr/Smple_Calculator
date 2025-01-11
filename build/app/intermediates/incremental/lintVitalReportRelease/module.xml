@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\development\flutter apps\practice_cal\android\app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    agpVersion="8.1.0"
+    buildFolder="C:\development\flutter apps\practice_cal\build\app"
+    bootClassPath="C:\development\platforms\android-35\android.jar;C:\development\build-tools\33.0.1\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-35">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
